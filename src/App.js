@@ -15,11 +15,7 @@ const AddTodo = React.lazy(
 );
 
 function App() {
-    const [todos, setTodos] = React.useState([
-        // { id: 1, completed: false, title: 'Купить хлеб' },
-        // { id: 2, completed: false, title: 'Купить масло' },
-        // { id: 3, completed: false, title: 'Купить молоко' },
-    ]);
+    const [todos, setTodos] = React.useState([]);
 
     const [loading, setLoading] = React.useState(true);
 
